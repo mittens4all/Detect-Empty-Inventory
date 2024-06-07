@@ -1,7 +1,7 @@
 
 # Detect Empty Inventory
 
-This behavior pack uses scoreboards to detect if a player who does not have any items in their inventory. You can then run your own commands based on the player's score.
+This behavior pack uses scoreboards to detect a player who does not have any items in their inventory. You can then run your own commands based on the player's score.
 
 ## Installing the pack:
 
