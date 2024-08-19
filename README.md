@@ -1,24 +1,33 @@
 
 # Detect Empty Inventory
 
-This behavior pack uses scoreboards to detect a player who does not have any items in their inventory. You can then run your own commands based on the player's score.
+This behavior pack uses scoreboards to detect if a player has nothing in their inventory. You can then run your own commands based on the player's score.
 
 ## Installing the pack:
 
-Add the Detect Empty Inventory Add-on to your behavior packs on your world. Behavior packs disable achievements, but editing the world with an NBT editor can re-enable achievements.
+Add the Detect Empty Inventory Add-on to your behavior packs on your world. Behavior packs disable achievements, but editing the world with an NBT editor can re-enable achievements when uploading your world to a realm.
 
-To re-enable achievements with a free NBT editor, check out my video on Youtube, (https://www.youtube.com/@mittens4all) 
+Re-enable achievements on either pc or mobile with the free NBT editor [Dovetail](https://github.com/Offroaders123/Dovetail) 
 
-### How to use the scoreboard
+### How to use the scoreboard example
 
-You can give players who do not have any items in their inventory an effect, like strength. This example command would be put into a repeating command block, set to unconditional, always active in a tickingarea.
+You can give players who have nothing in their inventory an effect, like strength. This example command would be put into a repeating command block, set to unconditional, always active in a tickingarea.
 
-`effect @a[scores={empty_inventory=1}] strength 1 0 true`
+```js
+effect @a[scores={empty_inventory=1}] strength 1 0 true
+```
 
-## Authors
+## Author
 
-- [@mittens4all] (https://www.github.com/mittens4all)
+- [@mittens4all](https://www.github.com/mittens4all)
+- [Youtube](https://www.youtube.com/@mittens4all)
 
-## Support
-
-For support, Join the discord (https://discord.gg/fbB8QgjxuQ)
+```js
+       _                              _     _       _ _  
+      (_)  _     _                   | |   (_)     | | | 
+ ____  _ _| |_ _| |_ _____ ____   ___| |_____ _____| | | 
+|    \| (_   _|_   _) ___ |  _ \ /___)_____  (____ | | | 
+| | | | | | |_  | |_| ____| | | |___ |     | / ___ | | | 
+|_|_|_|_|  \__)  \__)_____)_| |_(___/      |_\_____|\_)_)
+                                                         
+```
