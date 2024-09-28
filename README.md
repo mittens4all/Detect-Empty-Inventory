@@ -9,7 +9,7 @@ Add the Detect Empty Inventory Add-on to your behavior packs on your world. Beha
 
 Re-enable achievements on either pc or mobile with the free NBT editor [Dovetail](https://github.com/Offroaders123/Dovetail) 
 
-### How to use the scoreboard example
+### How to use the scoreboard
 
 You can give players who have nothing in their inventory an effect, like strength. This example command would be put into a repeating command block, set to unconditional, always active in a tickingarea.
 
