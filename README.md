@@ -13,7 +13,7 @@ Re-enable achievements on either pc or mobile with the free NBT editor [Dovetail
 You can give players who have nothing in their inventory an effect, like strength. This example command would be put into a repeating command block, set to unconditional, always active in a tickingarea.
 
 ```js
-effect @a[scores={empty_inventory=1}] strength 1 0 true
+effect @a[scores={detect:empty=1}] strength 1 0 true
 ```
 
 ## Author
