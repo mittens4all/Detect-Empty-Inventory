@@ -1,7 +1,6 @@
-
 # Detect Empty Inventory
 
-This behavior pack uses scoreboards to detect if a player has nothing in their inventory. You can then run your own commands based on the player's score.
+This behavior pack uses scripts to detect if a player has nothing in their inventory and assigns the player a score. You can then run your own commands based on the player's score.
 
 ## Installing the pack:
 
@@ -24,8 +23,8 @@ effect @a[scores={empty_inventory=1}] strength 1 0 true
 
 ```js
        _                              _     _       _ _  
-      (_)  _     _                   | |   (_)     | | | 
- ____  _ _| |_ _| |_ _____ ____   ___| |_____ _____| | | 
+      (_)  _     _                   | |   | |     | | | 
+ ____  _ _| |_ _| |_ _____ ____   ___| |___| |_____| | | 
 |    \| (_   _|_   _) ___ |  _ \ /___)_____  (____ | | | 
 | | | | | | |_  | |_| ____| | | |___ |     | / ___ | | | 
 |_|_|_|_|  \__)  \__)_____)_| |_(___/      |_\_____|\_)_)
