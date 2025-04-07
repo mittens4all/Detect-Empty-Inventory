@@ -4,7 +4,7 @@ This behavior pack uses scripts to detect if a player has an empty or full inven
 
 ## Installing the pack:
 
-Download the latest DetectInventory.mcpack file from the [Releases](https://github.com/mittens4all/Detect-Empty-Inventory/releases) page.
+Download the latest DetectInventory.mcpack file from the [Releases](https://github.com/mittens4all/Detect-Inventory/releases) page.
 
 Add the Detect Inventory Add-on to your behavior packs on your world. Behavior packs disable achievements, but editing the world with an NBT editor can re-enable achievements when uploading your world to a realm.
 
