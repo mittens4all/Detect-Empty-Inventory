@@ -1,8 +1,8 @@
 {
     "format_version": 2,
     "header": {
-      "description": "v2.0.0 - Pack by Mittens4all - Detect a player with no items",
-      "name": "Detect Empty Inventory",
+      "description": "v2.1.0 - Pack by Mittens4all - Detect a player with an empty or full inventory",
+      "name": "Detect Inventory",
       "uuid":"3228c570-cb9a-4cbe-9447-4967cec56df9",
       "version": [2, 0, 0],
       "min_engine_version": [1, 21, 70]
